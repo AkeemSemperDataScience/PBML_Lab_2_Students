@@ -50,6 +50,7 @@ jobs:
           #ls -rf
 
           # Copy all
+          rm -rf
           cp -r Programming_Basics_for_ML/course_material/labs/lab2/* .
           rm -f SAMP_SOL*
           #ls -la workbooks
