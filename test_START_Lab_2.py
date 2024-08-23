@@ -1,4 +1,4 @@
-from START_Lab_2 import lab2Question1, lab2Question2, lab2Question3, lab2Question4, lab2Question5, isValidPassword
+from START_Lab_2 import lab2Question1, lab2Question2, lab2Question3, lab2Question4, isValidPassword
 
 def test_lab2Question1():
     assert lab2Question1("racecar") == True
@@ -19,10 +19,6 @@ def test_lab2Question4():
     assert lab2Question4([1, 2, 3], [4, 5, 6]) == [5, 7, 9]
     assert lab2Question4([-1, 0, 1], [1, 0, -1]) == [0, 0, 0]
     assert lab2Question4([], []) == []
-
-#def test_lab2Question5():
-    # Since this function involves user input, it is difficult to write automated tests.
-    # You can manually test this function by running it and entering different passwords.
 
 def test_isValidPassword():
     assert isValidPassword("Password123") == True
