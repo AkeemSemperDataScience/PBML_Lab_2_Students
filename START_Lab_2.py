@@ -18,7 +18,7 @@ def lab2Question3(str1, str2):
 def lab2Question4(list1, list2):
     # Create a function that takes in two equal length list of numbers. 
     # Return a list of the element-wise sum of the two lists - i.e. the first element of the output list is the sum of the first elements of the input lists
-    # If the condition of the function is not satisfied, return None
+    # If the condition of the function is not satisfied, return a blank list
     pass
 
     return sum_list
